@@ -1,7 +1,7 @@
 # Project-outline
 A project outline for the Baltimore City Word of mouth website.
 
-The Mayor’s Office in collaboration with Safe & Sound Baltimore, living Cities Foundation’s City Accelerator program and Baltimore Returning Citizens have identified and are designing a tool to better disseminate information on human services in Baltimore. Returning Citizen stakeholders have LEAD the design process of a novel website and connected application that will use word of mouth referrals and linked resources to facilitate service delivery around the city. 
+The Mayor’s Office of Criminal Justice in collaboration with the Safe and Sound Campaign, Living Cities’ City Accelerator program and Baltimore Returning Citizens have identified gaps in communication of services for Baltimore residents reentering society after incarceration. We are designing a tool to connect returning citizens and better disseminate information on human services in Baltimore. Returning Citizen stakeholders are LEADING the design process of a novel website and connected application that will use word of mouth referrals and linked resources to facilitate service delivery around the city. 
 
 ##Features List: The site should include the following.
  
