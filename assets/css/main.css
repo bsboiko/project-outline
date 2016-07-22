@@ -1623,7 +1623,7 @@
 	}
 
 	body {
-		background: #ffffff;
+		background: ##0E2E8F;
 	}
 
 		body.is-loading *, body.is-loading *:before, body.is-loading *:after {
@@ -2879,8 +2879,8 @@
 
 				#header .logo .symbol img {
 					display: block;
-					width: 2em;
-					height: 2em;
+					width: 6em;
+					height: 6em;
 				}
 
 		#header nav {
