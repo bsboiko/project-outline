@@ -1623,7 +1623,7 @@
 	}
 
 	body {
-		background: ##0E2E8F;
+		background: #BDBDBD;
 	}
 
 		body.is-loading *, body.is-loading *:before, body.is-loading *:after {
@@ -1675,7 +1675,7 @@
 
 		a:hover {
 			border-bottom-color: transparent;
-			color: #f2849e !important;
+			color: #03A9F4 !important;
 		}
 
 	strong, b {
@@ -2399,10 +2399,11 @@
 			border: solid 1px #c9c9c9;
 			border-left: 0;
 			border-right: 0;
+			background-color: #ffffff;
 		}
 
 			table tbody tr:nth-child(2n + 1) {
-				background-color: rgba(144, 144, 144, 0.075);
+				background-color: #9E9E9E;
 			}
 
 		table td {
@@ -2469,7 +2470,7 @@
 		border-radius: 4px;
 		border: 0;
 		box-shadow: inset 0 0 0 2px #585858;
-		color: #585858 !important;
+		color: #03A9F4 !important;
 		cursor: pointer;
 		display: inline-block;
 		font-size: 0.8em;
@@ -2509,7 +2510,7 @@
 		input[type="button"]:hover,
 		button:hover,
 		.button:hover {
-			color: #f2849e !important;
+			color: #03A9F4 !important;
 			box-shadow: inset 0 0 0 2px #f2849e;
 		}
 
@@ -2518,7 +2519,7 @@
 		input[type="button"]:active,
 		button:active,
 		.button:active {
-			background-color: rgba(242, 132, 158, 0.1);
+			background-color: #03A9F4;
 		}
 
 		input[type="submit"].small,
@@ -2552,7 +2553,7 @@
 			input[type="button"].special:hover,
 			button.special:hover,
 			.button.special:hover {
-				background-color: #f2849e;
+				background-color: #03A9F4;
 			}
 
 			input[type="submit"].special:active,
@@ -2602,6 +2603,8 @@
 			position: relative;
 			width: calc(33.33333% - 2.5em);
 			margin: 2.5em 0 0 2.5em;
+			box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
 		}
 
 			.tiles article > .image {
@@ -2730,27 +2733,27 @@
 					}
 
 			.tiles article.style1 > .image:before {
-				background-color: #f2849e;
+				background-color: #2196F3;
 			}
 
 			.tiles article.style2 > .image:before {
-				background-color: #7ecaf6;
+				background-color: #00BCD4;
 			}
 
 			.tiles article.style3 > .image:before {
-				background-color: #7bd0c1;
+				background-color: #03A9F4;
 			}
 
 			.tiles article.style4 > .image:before {
-				background-color: #c75b9b;
+				background-color: #B2EBF2;
 			}
 
 			.tiles article.style5 > .image:before {
-				background-color: #ae85ca;
+				background-color: #1976D2;
 			}
 
 			.tiles article.style6 > .image:before {
-				background-color: #8499e7;
+				background-color: #3F51B5;
 			}
 
 			body:not(.is-touch) .tiles article:hover > .image {
@@ -3012,7 +3015,7 @@
 		max-width: 80%;
 		height: 100%;
 		-webkit-overflow-scrolling: touch;
-		background: #585858;
+		background: #757575;
 		color: #ffffff;
 		cursor: default;
 		visibility: hidden;
@@ -3345,6 +3348,7 @@
 		max-width: 68em;
 		margin: 0 auto;
 		padding: 0 2.5em;
+		background-color: ;
 	}
 
 		@media screen and (max-width: 736px) {
@@ -3353,4 +3357,4 @@
 				padding: 0 1.25em;
 			}
 
-		}
+		} 
