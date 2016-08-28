@@ -61,13 +61,33 @@
 				<!-- Main -->
 					<div id="main">
 						<div class="inner" id="about">
-							<h1>About Us</h1>
+							<h1>Volunteer</h1>
 							<hr />
-							<h2>We asked our Returning Citizen leaders what this project should look like. They responded by saying it should be a place to find...</h2>
+							<h2>Help our returning citizens by volunteering on our call system.</h2>
 							<hr />
-						</div>
-						<div class= "inner" id="chart" > 
-
+							<form method="post" action="">
+								<div class="field half first">
+									<input type="text" name="name" id="name" placeholder="Name" required />
+								</div>
+								<div class="field half">
+									<input type="email" name="email" id="email" placeholder="Email" required />
+								</div>
+								<div class="field half first">
+									<input type="tel" name="phone" id="phone" placeholder="Phone Number" required />
+								</div>
+								<div class="field">Select as many categories as you can provide help.</div>
+								<div class="field">
+									<input type="checkbox" name="category" value="food" id="food" />
+									<label for="food">Food</label>
+									<input type="checkbox" name="category" value="housing" id="housing" />
+									<label for="housing">Housing</label>
+									<input type="checkbox" name="category" value="resoures" id="resources" />
+									<label for="resources">Resources</label>
+								</div>
+								<ul class="actions">
+									<li><input type="submit" value="Subscribe as a volunteer" class="special" /></li>
+								</ul>
+							</form>
 						</div>
 					</div>
 
